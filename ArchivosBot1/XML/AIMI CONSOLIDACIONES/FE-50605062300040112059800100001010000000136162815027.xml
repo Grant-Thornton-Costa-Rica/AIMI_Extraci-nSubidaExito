@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica.xsd">
+  <Clave>50605062300040112059800100001010000000136162815027</Clave>
+  <CodigoActividad>702002</CodigoActividad>
+  <NumeroConsecutivo>00100001010000000136</NumeroConsecutivo>
+  <FechaEmision>2023-06-05T07:16:15-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>PEDRO GONZALEZ DELGADO</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>401120598</Numero>
+    </Identificacion>
+    <Ubicacion>
+      <Provincia>4</Provincia>
+      <Canton>07</Canton>
+      <Distrito>03</Distrito>
+      <Barrio>01</Barrio>
+      <OtrasSenas>75M. ESTE DEL EDIFICIO PARROQUIAL</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>89129959</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>pedrodelgon@hotmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>AIMI CONSOLIDACIONES SOCIEDAD ANONIMA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101280316</Numero>
+    </Identificacion>
+    <Ubicacion>
+      <Provincia>4</Provincia>
+      <Canton>07</Canton>
+      <Distrito>03</Distrito>
+      <OtrasSenas>800 metros oeste del Mall Real Cariari</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>22398181</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>cxp@aimi.cr</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <MedioPago>01</MedioPago>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <Codigo>7329000000000</Codigo>
+      <Cantidad>1.00</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <Detalle>Alquiler de predio para
+estacionamiento por el mes de junio 23</Detalle>
+      <PrecioUnitario>119500.00</PrecioUnitario>
+      <MontoTotal>119500.00</MontoTotal>
+      <SubTotal>119500.00</SubTotal>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifa>08</CodigoTarifa>
+        <Tarifa>13</Tarifa>
+        <Monto>15535.00</Monto>
+      </Impuesto>
+      <ImpuestoNeto>15535.00</ImpuestoNeto>
+      <MontoTotalLinea>135035.00</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>CRC</CodigoMoneda>
+      <TipoCambio>1</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>0</TotalServGravados>
+    <TotalServExentos>0</TotalServExentos>
+    <TotalServExonerado>0</TotalServExonerado>
+    <TotalMercanciasGravadas>119500.00</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0</TotalMercanciasExentas>
+    <TotalMercExonerada>0</TotalMercExonerada>
+    <TotalGravado>119500.00</TotalGravado>
+    <TotalExento>0</TotalExento>
+    <TotalExonerado>0</TotalExonerado>
+    <TotalVenta>119500.00</TotalVenta>
+    <TotalDescuentos>0</TotalDescuentos>
+    <TotalVentaNeta>119500.00</TotalVentaNeta>
+    <TotalImpuesto>15535.00</TotalImpuesto>
+    <TotalIVADevuelto>0</TotalIVADevuelto>
+    <TotalComprobante>135035.00</TotalComprobante>
+  </ResumenFactura>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-a74b5715-c7f4-49a8-a2f8-3437ae27c882"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-095fba11-eb7a-4837-8b42-2b45f4bad7cb" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>h+MM7WENQGLBF7B4L0TyVc2JQXLjWOBYx2G403t/mN8=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-a74b5715-c7f4-49a8-a2f8-3437ae27c882"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>sBWH8TO2LRvApl4+5QRnMRsoMC4bBRCwDCtIfMP8g6Y=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-a74b5715-c7f4-49a8-a2f8-3437ae27c882"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>6kfxPH0lKqPfQ7zzRDEytYbnBwcXJ0sgFrCeCn67sho=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-a74b5715-c7f4-49a8-a2f8-3437ae27c882">fZA+EnAkBvadx6R8H7LgPfswRWuD7QxEyx3gij2br4dBrSaRURP4cnogz2PigVpA4738DdizL8zEptEGC78A+bghVs/tPMy82Xy9cmsiqbZkUWiesxVZHcDuRR7zFV6fEoMr0xUOpt+BdcwXZAZznsLUCsVpL2AHYSf3VRgwE+P9Iqy3lN0yivJIW1H6WJp6kov6QWp+p9a255mg7mnATJDw0xAGnhJz+rI2fORqnGOykRdppDz5haBLTJv0Y5N+CHQ2XbI29MJiFgsk708vxDseiEu7ZHpt0sIkN39iBICPWMesSJBsnf4Jrtw09NVb4BIHtLRJnlt3jZyIgLlFIA==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-a74b5715-c7f4-49a8-a2f8-3437ae27c882"><ds:X509Data><ds:X509Certificate>MIIFTzCCAzegAwIBAgIGAYV4hh+aMA0GCSqGSIb3DQEBCwUAMFgxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxGjAYBgNVBAMMEUNBIFBFUlNPTkEgRklTSUNBMB4XDTIzMDEwMzE2NDUzM1oXDTI3MDEwMjE2NDUzM1owgasxGTAXBgNVBAUTEENQRi0wNC0wMTEyLTA1OTgxGTAXBgNVBAQMEEdPTlpBTEVaIERFTEdBRE8xFjAUBgNVBCoMDVBFRFJPIEFOVE9OSU8xCzAJBgNVBAYTAkNSMRcwFQYDVQQKDA5QRVJTT05BIEZJU0lDQTEMMAoGA1UECwwDQ1BGMScwJQYDVQQDDB5QRURSTyBBTlRPTklPIEdPTlpBTEVaIERFTEdBRE8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCik9rqlbf8WbjlIM7SxtV7d1H2trLsX5JY8gkN94eKww6dRA+tOj1K7kdWQZSMzWZVH3fL1lb+BGzuelcSnuqWAI1XSyv6r0H7nZHx3u1driMbTFinbRYJ3o3ZfXAbQU36s8pOrbsYHbDXsSBkmIZ/7SJNmRiFfDjSY8eb5dAX3WOr50L/9spijLNMQdAwNLLHwkgyG6BzgZg8gbPZwGPjAC8yJt6cW6cfnX5VS6ogYsn6MvGrKWEgR1y6isCJ6dFMsSK7Gjl/Bm40i297oE6KfRk+ggv5MF3mOYeHkeOCTdt7dwelV0zmkK9OzOrmlZd4WsZ+CfB1ZKdzV/37UlizAgMBAAGjgcowgccwHwYDVR0jBBgwFoAUE/ZqQQ3toiRF0ciUqEGDfGIla1kwHQYDVR0OBBYEFPAYKmb+9zhtCqe0G23gG2uVgRS9MAsGA1UdDwQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDBDBjBggrBgEFBQcBAQRXMFUwUwYIKwYBBQUHMAKGR2h0dHBzOi8vcGtpLmNvbXByb2JhbnRlc2VsZWN0cm9uaWNvcy5nby5jci9wcm9kL2ludGVybWVkaWF0ZS1wZi1wZW0uY3J0MA0GCSqGSIb3DQEBCwUAA4ICAQBw7NRozpEen0uY4BRPQ4Ym5EYoDNoiX5/CzLMZHkXpqGTaJ+FYGcWYwdPCTyVxbvfAWTMp4PAUJgn2MiAKu6hfZoDRO5TOrFZtjr0BjUMSpA/X9p/dEROucbXP7Lqh5BI6GBaH0Zfg0fgBD2WAB9jhLtpEmNU9hruBZweVNtmfJ96POjUScUutPqY73QQ1FgS1Tx2GyA0E6Ybmv9ec/jm/Iw4+5zpb3d3QTJlfOiuiYs2pRkHT6mgYG6YiuWGg6/dLaH3kstRQTWp/HdDLRVla6Nkc85nU+KM7D4P/hxFIaH22ww27xmtb98ED1CMw35qJ8nyuPKnxgGHjjoWXFsMmCbK7zmLS/0xztvlvT+n9O2gbzzJVxDIUtwe9U5TosrsDDAq5AwWgxynu/JoK8+hG1chBDZKidf0ZonpkLNrrgSNceGfxkPiOC1N/MnJTO/Ar/myoa4/vby9OB2XXeZ1zWXva8tLo1pA3r3FDl86NgTNOd91nnnCAGzXtJLGyvCVZrAfFw5GETV5sJJ0L9GxgCyGAT1u0S7aqbBxsn56MZXyvlvuZxQrSY4CeCjKUQRTGk/nWw14fBo+NVxjpV5qwvKjkWnqV2nv1uwwvRhbatFIaJVJYG1dQyOHN/pVyqyCLAdfAki5mWM1SCqbk2agokitq9v3KnD2fz5sAO1+Mjg==</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>opPa6pW3/Fm45SDO0sbVe3dR9ray7F+SWPIJDfeHisMOnUQPrTo9Su5HVkGUjM1mVR93y9ZW/gRs7npXEp7qlgCNV0sr+q9B+52R8d7tXa4jG0xYp20WCd6N2X1wG0FN+rPKTq27GB2w17EgZJiGf+0iTZkYhXw40mPHm+XQF91jq+dC//bKYoyzTEHQMDSyx8JIMhugc4GYPIGz2cBj4wAvMibenFunH51+VUuqIGLJ+jLxqylhIEdcuorAienRTLEiuxo5fwZuNItve6BOin0ZPoIL+TBd5jmHh5Hjgk3be3cHpVdM5pCvTszq5pWXeFrGfgnwdWSnc1f9+1JYsw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-60decacf-978d-45b2-b886-9d3a73f2353a"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-15e4d89e-5de8-4b1f-89bb-989aa0320119" Target="#Signature-a74b5715-c7f4-49a8-a2f8-3437ae27c882"><xades:SignedProperties Id="SignedProperties-Signature-a74b5715-c7f4-49a8-a2f8-3437ae27c882"><xades:SignedSignatureProperties><xades:SigningTime>2023-06-05T07:16:16-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>4cMlVcV2RnI1C+VyNPTXX703PIH9r6AgkbythjVTIbE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA FISICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1672764333978</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>ObligadoTributario</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-095fba11-eb7a-4837-8b42-2b45f4bad7cb"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

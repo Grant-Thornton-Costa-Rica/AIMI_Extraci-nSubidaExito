@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica.xsd">
+  <Clave>50619072300310106277700100001010000120099159688103</Clave>
+  <CodigoActividad>630201</CodigoActividad>
+  <NumeroConsecutivo>00100001010000120099</NumeroConsecutivo>
+  <FechaEmision>2023-07-19T16:23:38-06:00</FechaEmision>
+  <Emisor>
+    <Nombre>ALMACEN FISCAL DEL ESTE SOCIEDAD ANONIMA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101062777</Numero>
+    </Identificacion>
+    <NombreComercial>ALMACEN FISCAL DEL ESTE</NombreComercial>
+    <Ubicacion>
+      <Provincia>4</Provincia>
+      <Canton>01</Canton>
+      <Distrito>03</Distrito>
+      <OtrasSenas>Frente al Real Cariari, La Aurora, Heredia</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>40007700</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>servicioalcliente@afe.global</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>AIMI CONSOLIDACIONES SA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>3101280316</Numero>
+    </Identificacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>22398181</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>cxp@aimi.cr</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>02</CondicionVenta>
+  <PlazoCredito>30</PlazoCredito>
+  <MedioPago>99</MedioPago>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <Codigo>6511300009900</Codigo>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>15</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.00</Cantidad>
+      <UnidadMedida>Sp</UnidadMedida>
+      <Detalle>TRANSPORTE</Detalle>
+      <PrecioUnitario>100.00</PrecioUnitario>
+      <MontoTotal>100.00</MontoTotal>
+      <Descuento>
+        <MontoDescuento>0</MontoDescuento>
+        <NaturalezaDescuento>NEGOCIACION CON CLIENTE</NaturalezaDescuento>
+      </Descuento>
+      <SubTotal>100.00</SubTotal>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <CodigoTarifa>08</CodigoTarifa>
+        <Tarifa>13</Tarifa>
+        <Monto>13.00</Monto>
+      </Impuesto>
+      <ImpuestoNeto>13.00</ImpuestoNeto>
+      <MontoTotalLinea>113.00</MontoTotalLinea>
+    </LineaDetalle>
+    <LineaDetalle>
+      <NumeroLinea>2</NumeroLinea>
+      <Codigo>7113905000000</Codigo>
+      <CodigoComercial>
+        <Tipo>01</Tipo>
+        <Codigo>37</Codigo>
+      </CodigoComercial>
+      <Cantidad>1.00</Cantidad>
+      <UnidadMedida>Sp</UnidadMedida>
+      <Detalle>FINC.ANTICIPADO</Detalle>
+      <PrecioUnitario>0</PrecioUnitario>
+      <MontoTotal>0.00</MontoTotal>
+      <Descuento>
+        <MontoDescuento>0</MontoDescuento>
+        <NaturalezaDescuento>NEGOCIACION CON CLIENTE</NaturalezaDescuento>
+      </Descuento>
+      <SubTotal>0.00</SubTotal>
+      <ImpuestoNeto>0</ImpuestoNeto>
+      <MontoTotalLinea>0.00</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoTipoMoneda>
+      <CodigoMoneda>USD</CodigoMoneda>
+      <TipoCambio>542.22</TipoCambio>
+    </CodigoTipoMoneda>
+    <TotalServGravados>100.00</TotalServGravados>
+    <TotalServExentos>0.00</TotalServExentos>
+    <TotalServExonerado>0</TotalServExonerado>
+    <TotalMercanciasGravadas>0</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0</TotalMercanciasExentas>
+    <TotalMercExonerada>0</TotalMercExonerada>
+    <TotalGravado>100.00</TotalGravado>
+    <TotalExento>0.00</TotalExento>
+    <TotalExonerado>0</TotalExonerado>
+    <TotalVenta>100.00</TotalVenta>
+    <TotalDescuentos>0</TotalDescuentos>
+    <TotalVentaNeta>100.00</TotalVentaNeta>
+    <TotalImpuesto>13.00</TotalImpuesto>
+    <TotalIVADevuelto>0</TotalIVADevuelto>
+    <TotalComprobante>113.00</TotalComprobante>
+  </ResumenFactura>
+  <Otros>
+    <OtroTexto>Cliente: AIMI CONSOLIDACIONES S.A  // DUA: 005-2023-422715  // Bultos: 148  // Kilos: 1922  // Recibo: 258142  // Concepto: Transporte recolecci�n en Almac�n Fiscal del Este (A114), entrega en outlet skechers (Sepulveda).  // Solicitado: Jorge Vargas (Aimi)</OtroTexto>
+  </Otros>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-3926c530-7be0-4ec2-b9c4-7cb9dce87dbb"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-686c9ef2-2c21-471b-a553-e00cdba01c4c" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>C8cbIpFipCvpfMVygtQ/h2ddlH50YKd9keBEvC4AnVI=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-3926c530-7be0-4ec2-b9c4-7cb9dce87dbb"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>W9PuczXMfrMqSuVY6/KfNiJk4sIPNzVatEr8deg5tqM=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-3926c530-7be0-4ec2-b9c4-7cb9dce87dbb"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>RpgUzu8ZD5yo5XihsblXA1UH0kCGPJ9ZaKaz8/IO6kM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-3926c530-7be0-4ec2-b9c4-7cb9dce87dbb">KvLZXyF6+3+2nQXy03oWpObs9Pgnkki+batRQLFT0sgJjO6jsZRT1GdKN5x5E+6HV89/O1mYFgGOvJ9zXq5MxluPSrXs1QbTqVHj+pcqjHxE2ZhBX0E9V6qm8yAQo0YnMd05OtVhbti6bSiQmXq1kqL3blIlO/fp8ty7Q6IKJM34u8qj4AX1i2LIq4I0wzAdl1ezIVifZP0EgXn8x2+3cxBLfnlG4ls1rl/gq4AI73y01L3ne5AVx3rO1CIrpYzfrdeClktqO3jRZk6Cq1bdv+Ar26mv+oI4/1XEJ2MDRmwWpO3waVl048yQkPMbfCifiL3BMxnXg9KxSQEvIpojiQ==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-3926c530-7be0-4ec2-b9c4-7cb9dce87dbb"><ds:X509Data><ds:X509Certificate>MIIFKjCCAxKgAwIBAgIGAYL7qEC2MA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjIwOTAyMDA0NDQ0WhcNMjYwOTAxMDA0NDQ0WjCBhDEZMBcGA1UEBRMQQ1BKLTMtMTAxLTA2Mjc3NzELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjExMC8GA1UEAwwoQUxNQUNFTiBGSVNDQUwgREVMIEVTVEUgU09DSUVEQUQgQU5PTklNQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIdxLf1ncBhcMxAfqbNLSxn8YsbPyVy5+sxeSeMUHZjxFeTcBTp6WTNAQDNjUwbc8+w9eg7lAXqPdgXEyOmz63l+eLAJ0ITNxnRCQWQZfsDFV1juv0PP/lvKiWxfYdz/sNkkX6xQk2y7gnbVH8G0VqPPPT7ihnl4XULaxwjnLHbTlMZPrCNOECRCVW0LRlLGJfWiJcZEurfw7XA/4eK6XnS3/DhJI+dkt6Xmc4jAcP/yENfE4g58l852L06Sy43yjFjeZMnKzUlZi2hCX40Jo53K/hI5mdEo5Pf/wvX2KZOB79Tko44SJ2MpEDC5tVhs3wlCTtRlSvDzPwk9btbJ3mUCAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQ7bVf11nzpnhACIEHjvRrMz7NOlTAdBgNVHQ4EFgQUxPSfSP71MkfSzaUXCAxsWTW8tk8wCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAIqDkqFnRbYCRk5mWZHDBaRmuf3jF7FnCtgoNHutFG/P2RvFK//A9O5wu1EzmQ1Vm9X1XxoQTBvvfHyPFYGFscprhiVlPkdR9kCHwStqEz3s7DV1R1u5LexD1lAgNVbYO4xcwuIx5LnpGqvz03fmtyb8K/hbECObhrqjSXWDXpYyNzY3/29NndvsDBGUNTEejzc02nyztlCsxBpHLv4LTDCoI/SF8hKlI4dbYpk+48urlTtf4/htLz6dWICU/BiujAxXDuu0Tdrk+6x1/i2/2lEMJomJ3ayJEE+GoNsm0SXYQw2ddlCYEhJ1WpSBMEHYbG41jnn0Cr8XneJhaAPUE8c9EHEOiq5E3lOsxKxWU9tVEgiHsCLCGhWwDsG+5xFdJDWKfSkiVH4O5r5YMaFJJueDLZG44rrcJZDkGoRXUga/ToaI5Ok56BYrPuo+G8EsIW5JsiwQ+KjPckhp3rwQwIjLboqZCIxniJYlLWPiDe0adMGDVXkd6JesJDrrlwHGKDvK4XGoR9PzRGI8mqxK2LJYgNZhg2DumLybj+mO7rTI/D3WrS871qwU65l0y2j4H6vxeN0ooETb9AxESwSuX5CpOEe58jKJxc8WYCQ1lGZkZ1g00nuHuqtcxeirjlKfKUi3x8A8OVjJvTT4ma+ii425U8tczpa7rGqyKEUy+Ala</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>h3Et/WdwGFwzEB+ps0tLGfxixs/JXLn6zF5J4xQdmPEV5NwFOnpZM0BAM2NTBtzz7D16DuUBeo92BcTI6bPreX54sAnQhM3GdEJBZBl+wMVXWO6/Q8/+W8qJbF9h3P+w2SRfrFCTbLuCdtUfwbRWo889PuKGeXhdQtrHCOcsdtOUxk+sI04QJEJVbQtGUsYl9aIlxkS6t/DtcD/h4rpedLf8OEkj52S3peZziMBw//IQ18TiDnyXznYvTpLLjfKMWN5kycrNSVmLaEJfjQmjncr+EjmZ0Sjk9//C9fYpk4Hv1OSjjhInYykQMLm1WGzfCUJO1GVK8PM/CT1u1sneZQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-715239e5-56d5-42ad-8369-0d0d4b24e57f"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-bf22e6e0-8f99-4254-b290-eb7e201f8968" Target="#Signature-3926c530-7be0-4ec2-b9c4-7cb9dce87dbb"><xades:SignedProperties Id="SignedProperties-Signature-3926c530-7be0-4ec2-b9c4-7cb9dce87dbb"><xades:SignedSignatureProperties><xades:SigningTime>2023-07-19T16:25:15-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>6rVIp6N0QhtN56jWWwANAFDEwtfXZk7KzqXwjqAdtF8=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1662079484086</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>ObligadoTributario</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-686c9ef2-2c21-471b-a553-e00cdba01c4c"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>

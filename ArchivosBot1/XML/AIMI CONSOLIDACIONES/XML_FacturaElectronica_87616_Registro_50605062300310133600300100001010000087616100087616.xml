@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica" xsi:schemaLocation="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica https://tribunet.hacienda.go.cr/docs/esquemas/2017/v4.3/facturaElectronica.xsd">
+	<Clave>50605062300310133600300100001010000087616100087616</Clave>
+	<CodigoActividad>630903</CodigoActividad>
+	<NumeroConsecutivo>00100001010000087616</NumeroConsecutivo>
+	<FechaEmision>2023-06-05T10:44:21-06:00</FechaEmision>
+	<Emisor>
+		<Nombre>Mediterranea Intermodal Medinter SA</Nombre>
+		<Identificacion>
+			<Tipo>02</Tipo>
+			<Numero>3101336003</Numero>
+		</Identificacion>
+		<NombreComercial>Mediterranea Intermodal Medinter SA</NombreComercial>
+		<Ubicacion>
+			<Provincia>1</Provincia>
+			<Canton>01</Canton>
+			<Distrito>02</Distrito>
+			<OtrasSenas>250 metros al  Sur de la Purdy Motor en el Paseo Colon, Edificio Don Bosco.
+</OtrasSenas>
+		</Ubicacion>
+		<Telefono>
+			<CodigoPais>506</CodigoPais>
+			<NumTelefono>22568125</NumTelefono>
+		</Telefono>
+		<Fax>
+			<CodigoPais>506</CodigoPais>
+			<NumTelefono>22568125</NumTelefono>
+		</Fax>
+		<CorreoElectronico>facturacion@medintercr.com</CorreoElectronico>
+	</Emisor>
+	<Receptor>
+		<Nombre>AIMI CONSOLIDACIONES S.A.</Nombre>
+		<Identificacion>
+			<Tipo>02</Tipo>
+			<Numero>3101280316</Numero>
+		</Identificacion>
+		<NombreComercial>AIMI CONSOLIDACIONES S.A.</NombreComercial>
+		<Ubicacion>
+			<Provincia>4</Provincia>
+			<Canton>07</Canton>
+			<Distrito>03</Distrito>
+			<Barrio>04</Barrio>
+			<OtrasSenas>EDIFICIO AIMI 800 MTS OESTE DEL MALL REAL CARIARI</OtrasSenas>
+		</Ubicacion>
+		<Telefono>
+			<CodigoPais>506</CodigoPais>
+			<NumTelefono>22398181</NumTelefono>
+		</Telefono>
+		<Fax>
+			<CodigoPais>506</CodigoPais>
+			<NumTelefono>22398181</NumTelefono>
+		</Fax>
+		<CorreoElectronico>cxp@aimi.cr</CorreoElectronico>
+	</Receptor>
+	<CondicionVenta>02</CondicionVenta>
+	<PlazoCredito>22</PlazoCredito>
+	<MedioPago>01</MedioPago>
+	<DetalleServicio>
+		<LineaDetalle>
+			<NumeroLinea>1</NumeroLinea>
+			<Codigo>6521300000000</Codigo>
+			<CodigoComercial>
+				<Tipo>01</Tipo>
+				<Codigo>638</Codigo>
+			</CodigoComercial>
+			<Cantidad>1.000</Cantidad>
+			<UnidadMedida>Os</UnidadMedida>
+			<UnidadMedidaComercial>Otro tipo servicio</UnidadMedidaComercial>
+			<Detalle>TICA EXPORTACION</Detalle>
+			<PrecioUnitario>45.0000</PrecioUnitario>
+			<MontoTotal>45.0000</MontoTotal>
+			<SubTotal>45.0000</SubTotal>
+			<Impuesto>
+				<Codigo>01</Codigo>
+				<CodigoTarifa>01</CodigoTarifa>
+				<Tarifa>0.00</Tarifa>
+				<Monto>0.0000</Monto>
+			</Impuesto>
+			<MontoTotalLinea>45.0000</MontoTotalLinea>
+		</LineaDetalle>
+		<LineaDetalle>
+			<NumeroLinea>2</NumeroLinea>
+			<Codigo>6521300000000</Codigo>
+			<CodigoComercial>
+				<Tipo>01</Tipo>
+				<Codigo>643</Codigo>
+			</CodigoComercial>
+			<Cantidad>1.000</Cantidad>
+			<UnidadMedida>Os</UnidadMedida>
+			<UnidadMedidaComercial>Otro tipo servicio</UnidadMedidaComercial>
+			<Detalle>FLETE ADICIONAL EXPORT</Detalle>
+			<PrecioUnitario>575.0000</PrecioUnitario>
+			<MontoTotal>575.0000</MontoTotal>
+			<SubTotal>575.0000</SubTotal>
+			<Impuesto>
+				<Codigo>01</Codigo>
+				<CodigoTarifa>01</CodigoTarifa>
+				<Tarifa>0.00</Tarifa>
+				<Monto>0.0000</Monto>
+			</Impuesto>
+			<MontoTotalLinea>575.0000</MontoTotalLinea>
+		</LineaDetalle>
+	</DetalleServicio>
+	<OtrosCargos>
+		<TipoDocumento>99</TipoDocumento>
+		<Detalle>FLETE MARITIMO</Detalle>
+		<MontoCargo>5375.0000</MontoCargo>
+	</OtrosCargos>
+	<OtrosCargos>
+		<TipoDocumento>99</TipoDocumento>
+		<Detalle>THD                                                                                                    </Detalle>
+		<MontoCargo>950.0000</MontoCargo>
+	</OtrosCargos>
+	<OtrosCargos>
+		<TipoDocumento>99</TipoDocumento>
+		<Detalle>DOCUMENTACION EXPORTACION</Detalle>
+		<MontoCargo>55.0000</MontoCargo>
+	</OtrosCargos>
+	<OtrosCargos>
+		<TipoDocumento>99</TipoDocumento>
+		<Detalle>FAF</Detalle>
+		<MontoCargo>650.0000</MontoCargo>
+	</OtrosCargos>
+	<OtrosCargos>
+		<TipoDocumento>99</TipoDocumento>
+		<Detalle>DESTINATION INLAND HAUL                                                                                </Detalle>
+		<MontoCargo>2500.0000</MontoCargo>
+	</OtrosCargos>
+	<OtrosCargos>
+		<TipoDocumento>99</TipoDocumento>
+		<Detalle>SEAL   COSCO                                                                                           </Detalle>
+		<MontoCargo>5.0000</MontoCargo>
+	</OtrosCargos>
+	<ResumenFactura>
+		<CodigoTipoMoneda>
+			<CodigoMoneda>USD</CodigoMoneda>
+			<TipoCambio>545.84000</TipoCambio>
+		</CodigoTipoMoneda>
+		<TotalServGravados>620.0000</TotalServGravados>
+		<TotalServExentos>0.0000</TotalServExentos>
+		<TotalMercanciasGravadas>0.0000</TotalMercanciasGravadas>
+		<TotalMercanciasExentas>0.0000</TotalMercanciasExentas>
+		<TotalGravado>620.0000</TotalGravado>
+		<TotalExento>0.0000</TotalExento>
+		<TotalVenta>620.0000</TotalVenta>
+		<TotalDescuentos>0.0000</TotalDescuentos>
+		<TotalVentaNeta>620.0000</TotalVentaNeta>
+		<TotalImpuesto>0.0000</TotalImpuesto>
+		<TotalOtrosCargos>9535.0000</TotalOtrosCargos>
+		<TotalComprobante>10155.0000</TotalComprobante>
+	</ResumenFactura>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-8676d346-e860-4ee7-89c9-42e13315ad5f"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512" /><ds:Reference Id="Reference-3a437ab8-cd33-4d5b-9dfc-479865cf9f22" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" /><ds:DigestValue>zvA49QYawySE29Wn0cGF3ab7v4fO6S09Ar/H8JpcvmqTe8b28qThDIM/wO1G/Mhyp2Mlc4KUEcgoOB3Zj6mdcQ==</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-8676d346-e860-4ee7-89c9-42e13315ad5f"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" /><ds:DigestValue>gEpWfc/+Fzn6o7BR9F/pLC2HdZnp/VMpgWJE8f21hBhYNxdEz8WEgAqonMXyIPL9T1/Kz2OdRXKYY87dxwYNMQ==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-8676d346-e860-4ee7-89c9-42e13315ad5f"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" /><ds:DigestValue>M2PR5L6R/7K781RbcjkJM8ZkLi6RDvnWOWJXb36Qpve+sUpqPQKwGzQ9hA1G5wEC8BqvsM5rsmDFqLSTuKFRHA==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-8676d346-e860-4ee7-89c9-42e13315ad5f">Kdwq2tSfvd1qMq93Yk0K1EPdBmhFxK2xkgb5128QYBVN/P8XnkHrLNLRANVS/9tn8QqdzmI9NPovlY5r8FL/PURe/4t7TQLlIqT6GURkPzVrROHtZthVKhzlZa+JUvxwl0PkWq7JDJ6jbGsT5ZsQVjFtFyzFIzX5jMgxUcz91QJsYc5rEVoQccQ2g1woNfXoIRcLTXCDoc4LSOrXvu8yUBCueSV9oeqWplOQhGn1Qjq1b5ZH10jF03YI+jF2RpayJB0vXaNkmyfglUrWzWjifzmtDNwyIjIDc+YqA6zPfrj4qa+HQYVH9L2onxyX7aHlpDt39Nrx8ws6szUchiZ5lw==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-8676d346-e860-4ee7-89c9-42e13315ad5f"><ds:X509Data><ds:X509Certificate>MIIFMzCCAxugAwIBAgIGAYJIcXVPMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNVBAYTAkNSMR8wHQYDVQQKDBZNSU5JU1RFUklPIERFIEhBQ0lFTkRBMQwwCgYDVQQLDANER1QxHDAaBgNVBAMME0NBIFBFUlNPTkEgSlVSSURJQ0EwHhcNMjIwNzI5MDUzMjUxWhcNMjYwNzI4MDUzMjUxWjCBjTEZMBcGA1UEBRMQQ1BKLTMtMTAxLTMzNjAwMzELMAkGA1UEBhMCQ1IxGTAXBgNVBAoMEFBFUlNPTkEgSlVSSURJQ0ExDDAKBgNVBAsMA0NQSjE6MDgGA1UEAwwxTUVESVRFUlJBTkVBIElOVEVSTU9EQUwgTUVESU5URVIgU09DSUVEQUQgQU5PTklNQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJosjzm8QjMC04OJVfHH+zlykP2vZu68UTIEpmvhlG/liKNOD4NB25kvKZfKAp73XqgXdbeWNfP4K/EJgt6B/a0BOJIi71obesylB8RAEqFx7BhD1Z2MyIs7eSceIrgXU7GKBdl2VsPjacafXKPVsy5fMmxJ8dLJRrcd3t/NOF82JIgWG/3veH9qmGAZiVbmsxbs3LSWnUrX0+N14d96l6jMThehOBG5U2hvB8gYtsLcJMtpUU/ipd6WOBvcek7IIcYKmvfx8M0DmwWPvZgtKqOgvsE90RQ3wJ+oo2G65tH51sWth9Q8ypPNgnVxVCRjL4pQF2dLmXX+KRmlAAYDPpsCAwEAAaOByjCBxzAfBgNVHSMEGDAWgBQ7bVf11nzpnhACIEHjvRrMz7NOlTAdBgNVHQ4EFgQUMx+u5EA4qhTxHl6CsgY8TbykXSIwCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3Byb2QvaW50ZXJtZWRpYXRlLXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAK6ZE0n0mPMma7ASP0TPCf/rDHS5CgFBF8lDq+6Gx6ivgOVi5B2HS+0AYt9VHAARw4pV6eCyB3IRRXlvVHT3TqHg5C9S9l3sxvRN04VbeccoJ4o+NxAuhMF5uXUopEa7gh+6jIEaRKSyDTfKt5VcWZ7DZm8cKaGmV58NI9rxbXS73b1LN86uV2xsm85N0RcH4wWIwc5YWmj9rA/W6/m7bvXm/ZBVyfc36qzKRapEBTqvAJNk6PLdOxgoiUez29yBIVpTEvmZ2nULsdBT7qivleb63YQzmfXYJLFbvl6F9MDpiTSxpB7Hbcy4tDI6RAfSdahmdqeQjJVecZlROVTBM2DHE8/4TBcw2UZ03Ycj7GhwWwlchuzHNPjiNs9vuIZLXsD+nIh+EdPxezPcQk5QHS47iZsriBJGUEG8Tu5dZKEuz7UNGHcvzXWqaOSuJR0Wi+IR6mNlR0sNNqhV+VVSP39T78bgmhXCh3fgwpBY9teI8jkv4iXrSXZYzQT37N+KMWsALrQ2Zf3fePm1m8PJTNyVQWagfu4RsqDBH/sI8BUVCPBDLFo9MLYnp6vLcS1w3HkDGk67rhKeUFi0RKL6Rbff7IOh9tWXNxJN4m6UWrTzgJXg7DAveW1jyEUWmpdytQFBBPLhYcxLicvlWQC4/A5Y/h24DgrCoMa2jBD+zfsq</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>miyPObxCMwLTg4lV8cf7OXKQ/a9m7rxRMgSma+GUb+WIo04Pg0HbmS8pl8oCnvdeqBd1t5Y18/gr8QmC3oH9rQE4kiLvWht6zKUHxEASoXHsGEPVnYzIizt5Jx4iuBdTsYoF2XZWw+Npxp9co9WzLl8ybEnx0slGtx3e3804XzYkiBYb/e94f2qYYBmJVuazFuzctJadStfT43Xh33qXqMxOF6E4EblTaG8HyBi2wtwky2lRT+Kl3pY4G9x6Tsghxgqa9/HwzQObBY+9mC0qo6C+wT3RFDfAn6ijYbrm0fnWxa2H1DzKk82CdXFUJGMvilAXZ0uZdf4pGaUABgM+mw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-f9762e24-c6e4-40a8-a5cd-6f041bf2a2f9"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-55584c80-708c-4638-afd9-bf545d533b73" Target="#Signature-8676d346-e860-4ee7-89c9-42e13315ad5f"><xades:SignedProperties Id="SignedProperties-Signature-8676d346-e860-4ee7-89c9-42e13315ad5f"><xades:SignedSignatureProperties><xades:SigningTime>2023-06-05T10:48:20-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" /><ds:DigestValue>iGB9UUGBnnzOcTAMQ1oJwRy2dfD2eSVQgLq2elCL9Ti3bxKlcvHPN4eLhOQZkGQaq3AmV6Tk6+s5LQqUijjh/Q==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA, OU=DGT, O=MINISTERIO DE HACIENDA, C=CR</ds:X509IssuerName><ds:X509SerialNumber>1659072771407</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><SignaturePolicyIdentifier xmlns="http://uri.etsi.org/01903/v1.3.2#"><SignaturePolicyId><SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.1/Resolucion_Comprobantes_Electronicos_DGT-R-48-2016.pdf</xades:Identifier><Description /></SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>NmI5Njk1ZThkNzI0MmIzMGJmZDAyNDc4YjUwNzkzODM2NTBiOWUxNTBkMmI2YjgzYzZjM2I5NTZlNDQ4OWQzMQ==</ds:DigestValue></xades:SigPolicyHash></SignaturePolicyId></SignaturePolicyIdentifier></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>
